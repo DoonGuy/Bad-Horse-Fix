@@ -23,6 +23,6 @@
 		"fabricloader": ">=0.12.3",
 		"minecraft": ">=1.18.2",
 		"sodium": "*",
-		"iris": ">=1.6.0 <1.7.0"
+		"iris": "1.7.0-snapshot+mc1.20.4-482321c"
 	}
 }
