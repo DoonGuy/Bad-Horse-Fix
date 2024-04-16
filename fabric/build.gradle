@@ -27,8 +27,8 @@ dependencies {
     common(project(path: ":common", configuration: "namedElements")) { transitive false }
     shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
 
-    modImplementation"maven.modrinth:sodium:${project.sodium_version}"
-    modImplementation"maven.modrinth:iris:${project.iris_version}"
+    modImplementation files('local/iris-1.7.0-snapshotmc1.20.5-pre3-b9b1e60-dirty.jar')
+    modImplementation files('local/sodium-fabric-0.5.8-snapshotmc1.20.5-pre3-local.jar')
 }
 
 processResources {
